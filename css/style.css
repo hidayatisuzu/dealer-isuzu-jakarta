@@ -1,1 +1,105 @@
+/* === Umum === */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
 
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 1.5em;
+}
+
+a {
+  color: #005baa;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* === Header & Navigasi === */
+header {
+  background-color: #002b5b;
+  color: white;
+  padding: 1.2em 0;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+}
+nav {
+  margin-top: 1em;
+}
+nav a {
+  margin: 0 1em;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* === Hero Section === */
+.hero {
+  background: linear-gradient(to right, #005baa, #0079c2);
+  color: white;
+  padding: 2em 0;
+  text-align: center;
+}
+.hero h2 {
+  margin-top: 0;
+}
+.btn-cta {
+  background-color: #ff6600;
+  padding: 0.8em 1.5em;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+/* === Produk Unggulan === */
+.produk-unggulan h2 {
+  text-align: center;
+}
+.produk-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5em;
+  margin-top: 1.5em;
+}
+.produk {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  padding: 1em;
+  width: 300px;
+  text-align: center;
+}
+.produk img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+.btn-detail {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.6em 1.2em;
+  background-color: #005baa;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* === Footer === */
+footer {
+  background-color: #002b5b;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 2em;
+}
