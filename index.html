@@ -3,64 +3,163 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dealer Resmi Isuzu Jakarta | Hidayatullah</title>
-  <meta name="description" content="Dealer Isuzu Jakarta resmi. Promo Isuzu Traga, Elf NLR, Giga FVM. Hubungi Hidayatullah 085338180260.">
-  <link rel="stylesheet" href="css/style.css" />
+  <title>Dealer Isuzu Jakarta | Hidayatullah</title>
+  <meta name="description" content="Dealer resmi Isuzu Jakarta. Info lengkap truk Traga, Elf NLR, dan Giga FVM. Hubungi Hidayatullah untuk konsultasi pembelian.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 50;
+      background-color: #25D366;
+      color: white;
+      padding: 14px 18px;
+      border-radius: 50px;
+      font-weight: bold;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .whatsapp-float:hover {
+      background-color: #1ebd58;
+    }
+  </style>
 </head>
-<body>
+<body class="bg-white text-gray-800 font-sans">
 
-  <header>
-    <div class="container">
-      <h1>Dealer Resmi Isuzu Jakarta</h1>
-      <p>Solusi kendaraan niaga Anda - Traga, Elf, Giga</p>
-      <nav>
-        <a href="index.html">Beranda</a>
-        <a href="produk.html">Produk</a>
-        <a href="price-list.html">Price List</a>
-        <a href="tentang.html">Tentang Kami</a>
-        <a href="kontak.html">Kontak</a>
-      </nav>
-    </div>
-  </header>
+<!-- Header -->
+<header class="bg-blue-800 text-white p-4">
+  <div class="max-w-6xl mx-auto flex justify-between items-center">
+    <h1 class="text-xl font-bold">Dealer Isuzu Jakarta</h1>
+    <nav class="space-x-4 text-sm">
+      <a href="#produk" class="hover:underline">Produk</a>
+      <a href="#galeri" class="hover:underline">Galeri</a>
+      <a href="#keunggulan" class="hover:underline">Keunggulan</a>
+      <a href="#faq" class="hover:underline">FAQ</a>
+      <a href="#kontak" class="hover:underline">Kontak</a>
+    </nav>
+  </div>
+</header>
 
-  <section class="hero">
-    <div class="container">
-      <h2>Promo Terbaik Isuzu Jakarta</h2>
-      <p>Hubungi Hidayatullah sekarang dan dapatkan penawaran spesial untuk Traga, Elf NLR, dan Giga FVM!</p>
-      <a href="https://wa.me/6285338180260?text=Halo%20Pak%20Hidayatullah%2C%20saya%20tertarik%20dengan%20produk%20Isuzu.%20Mohon%20info%20lengkap%20dan%20penawarannya%20ya." target="_blank" class="btn-cta">Chat via WhatsApp</a>
+<!-- Hero -->
+<section class="bg-cover bg-center text-white text-center py-20 px-4" style="background-image: url('assets/images/hero-truck.jpg');">
+  <div class="bg-black bg-opacity-60 p-10">
+    <h2 class="text-3xl font-bold mb-4">Solusi Truk Bisnis Anda</h2>
+    <p class="text-lg mb-6">Traga, Elf NLR, dan Giga FVM tersedia untuk berbagai kebutuhan usaha</p>
+    <a href="https://wa.me/6285338180260?text=Halo%20Pak%20Hidayatullah%2C%20saya%20ingin%20konsultasi%20mengenai%20truk%20Isuzu." target="_blank" class="bg-green-500 px-6 py-3 rounded text-white font-semibold">Chat via WhatsApp</a>
+  </div>
+</section>
+
+<!-- Produk -->
+<section id="produk" class="max-w-6xl mx-auto py-16 px-4">
+  <h2 class="text-2xl font-bold text-center mb-10">Pilihan Truk Isuzu</h2>
+  <div class="grid md:grid-cols-3 gap-8">
+    <div class="text-center shadow p-4 rounded border">
+      <img src="assets/images/traga.png" alt="Isuzu Traga" class="w-full h-48 object-contain mb-4">
+      <h3 class="font-bold">Isuzu Traga</h3>
+      <p class="text-sm text-gray-600">Pick up luas dan irit BBM, cocok untuk niaga ringan</p>
+      <p class="text-sm mt-2">Harga: <strong>Rp 283.000.000 (OTR Jakarta)</strong></p>
     </div>
+    <div class="text-center shadow p-4 rounded border">
+      <img src="assets/images/nlr.png" alt="Isuzu NLR" class="w-full h-48 object-contain mb-4">
+      <h3 class="font-bold">Isuzu Elf NLR</h3>
+      <p class="text-sm text-gray-600">Truk ringan efisien untuk distribusi kota dan antar pulau</p>
+      <p class="text-sm mt-2">Harga: <strong>Rp 413.000.000 (OTR Jakarta)</strong></p>
+    </div>
+    <div class="text-center shadow p-4 rounded border">
+      <img src="assets/images/fvm.png" alt="Isuzu Giga FVM" class="w-full h-48 object-contain mb-4">
+      <h3 class="font-bold">Isuzu Giga FVM</h3>
+      <p class="text-sm text-gray-600">Truk besar andalan industri dan proyek berat</p>
+      <p class="text-sm mt-2">Harga: <strong>Rp 932.000.000 (OTR Jakarta)</strong></p>
+    </div>
+  </div>
+</section>
+
+<!-- Galeri -->
+<section id="galeri" class="bg-gray-100 py-16 px-4">
+  <h2 class="text-2xl font-bold text-center mb-10">Galeri Unit</h2>
+  <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+    <img src="assets/images/traga.png" class="rounded shadow" alt="Traga">
+    <img src="assets/images/nlr.png" class="rounded shadow" alt="NLR">
+    <img src="assets/images/fvm.png" class="rounded shadow" alt="FVM">
+  </div>
+</section>
+
+<!-- Keunggulan -->
+<section id="keunggulan" class="py-16 px-4">
+  <h2 class="text-2xl font-bold text-center mb-10">Keunggulan Isuzu</h2>
+  <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-8 text-center">
+    <div>
+      <h3 class="font-semibold mb-2">Efisien & Tangguh</h3>
+      <p class="text-sm text-gray-600">Teknologi common rail yang hemat bahan bakar dan bertenaga</p>
+    </div>
+    <div>
+      <h3 class="font-semibold mb-2">Perawatan Mudah</h3>
+      <p class="text-sm text-gray-600">Jaringan servis luas dan sparepart tersedia di seluruh Indonesia</p>
+    </div>
+    <div>
+      <h3 class="font-semibold mb-2">Terpercaya</h3>
+      <p class="text-sm text-gray-600">Digunakan oleh berbagai sektor bisnis dari kecil hingga besar</p>
+    </div>
+  </div>
   </section>
 
-  <section class="produk-unggulan container">
-    <h2>Produk Unggulan</h2>
-    <div class="produk-grid">
-      <div class="produk">
-        <img src="assets/images/traga.png" alt="Isuzu Traga">
-        <h3>Isuzu Traga</h3>
-        <p>Mobil pick up serbaguna dengan kapasitas besar dan efisien bahan bakar.</p>
-        <a href="traga.html" class="btn-detail">Lihat Detail</a>
-      </div>
-      <div class="produk">
-        <img src="assets/images/nlr.png" alt="Isuzu NLR">
-        <h3>Isuzu Elf NLR</h3>
-        <p>Truk ringan terbaik untuk angkut barang atau penumpang di kota.</p>
-        <a href="nlr.html" class="btn-detail">Lihat Detail</a>
-      </div>
-      <div class="produk">
-        <img src="assets/images/fvm.png" alt="Isuzu Giga FVM">
-        <h3>Isuzu Giga FVM</h3>
-        <p>Truk heavy duty handal untuk bisnis logistik berskala besar.</p>
-        <a href="fvm.html" class="btn-detail">Lihat Detail</a>
-      </div>
+  <!-- Testimoni -->
+<section class="bg-white py-16 px-4">
+  <h2 class="text-2xl font-bold text-center mb-10">Apa Kata Konsumen</h2>
+  <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-6">
+    <div class="bg-gray-100 p-4 rounded shadow">
+      <p class="text-sm italic">“Traga-nya kuat banget buat angkut bahan bangunan. Servis juga gampang di cabang Isuzu.”</p>
+      <p class="text-sm font-semibold mt-2">– Pak Rudi, Usaha Material</p>
     </div>
-  </section>
+    <div class="bg-gray-100 p-4 rounded shadow">
+      <p class="text-sm italic">“Saya beli Elf NLR buat travel. Irit dan nyaman, penumpang juga suka.”</p>
+      <p class="text-sm font-semibold mt-2">– Bu Lilis, Usaha Travel</p>
+    </div>
+  </div>
+</section>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Dealer Isuzu Jakarta | Hidayatullah - 085338180260</p>
-      <p>Jl. Danau Sunter Utara Blok O3 Kav 30, Jakarta Utara</p>
+<!-- FAQ -->
+<section id="faq" class="max-w-4xl mx-auto py-16 px-4">
+  <h2 class="text-2xl font-bold text-center mb-10">Pertanyaan Umum (FAQ)</h2>
+  <div class="space-y-6 text-sm text-gray-700">
+    <div>
+      <strong>Apakah bisa pembelian secara kredit?</strong>
+      <p>Ya, tersedia opsi pembiayaan melalui rekanan leasing resmi sesuai ketentuan yang berlaku.</p>
     </div>
-  </footer>
+    <div>
+      <strong>Apakah harga sudah termasuk pajak?</strong>
+      <p>Harga yang tercantum adalah harga OTR Jakarta dan sudah termasuk biaya administrasi kendaraan.</p>
+    </div>
+    <div>
+      <strong>Apakah unit bisa dikirim ke luar kota?</strong>
+      <p>Bisa, kami dapat bantu pengiriman unit ke berbagai wilayah sesuai permintaan konsumen.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Kontak -->
+<section id="kontak" class="bg-gray-50 py-16 px-4 text-center">
+  <h2 class="text-2xl font-bold mb-4">Hubungi Sales Resmi Isuzu Jakarta</h2>
+  <p class="text-lg font-semibold">Hidayatullah</p>
+  <p class="text-sm">Telp / WA: <a href="https://wa.me/6285338180260" target="_blank" class="text-blue-600 underline">0853-3818-0260</a></p>
+  <p class="text-sm">Email: hidayatullah@iso.astra.co.id</p>
+  <p class="text-sm mt-2">Alamat Dealer: Jl. Danau Sunter Utara Blok O3 Kav 30, Sunter II, Jakarta Utara</p>
+</section>
+
+<!-- Footer -->
+<footer class="bg-blue-800 text-white text-center py-6 text-sm">
+  <p>&copy; 2025 Dealer Isuzu Jakarta | Hidayatullah</p>
+  <a href="privacy.html" class="underline">Kebijakan Privasi</a>
+</footer>
+
+<!-- WhatsApp CTA -->
+<a href="https://wa.me/6285338180260?text=Halo%20Pak%20Hidayatullah%2C%20saya%20ingin%20bertanya%20mengenai%20produk%20Isuzu." class="whatsapp-float" target="_blank">Chat WA</a>
+
+  <!-- Script opsional (misalnya untuk animasi AOS di masa depan) -->
+<!-- <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script> -->
 
 </body>
 </html>
