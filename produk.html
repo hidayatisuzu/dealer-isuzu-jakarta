@@ -3,40 +3,77 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Daftar Produk | Dealer Isuzu Jakarta</title>
-  <meta name="description" content="Daftar lengkap produk truk Isuzu Jakarta. Lihat info Traga, Elf, Giga dan lainnya.">
-  <link rel="stylesheet" href="css/style.css" />
+  <title>Produk Truk Isuzu | Dealer Jakarta</title>
+  <meta name="description" content="Lihat pilihan truk Isuzu terbaik: Traga, Elf NLR, dan Giga FVM. Harga dan spesifikasi tersedia lengkap.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 50;
+      background-color: #25D366;
+      color: white;
+      padding: 14px 18px;
+      border-radius: 50px;
+      font-weight: bold;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .whatsapp-float:hover {
+      background-color: #1ebd58;
+    }
+  </style>
 </head>
-<body>
+<body class="bg-white text-gray-800 font-sans">
 
-  <header>
-    <div class="container">
-      <h1>Produk Truk Isuzu</h1>
-      <nav>
-        <a href="index.html">Beranda</a>
-        <a href="produk.html">Produk</a>
-        <a href="price-list.html">Price List</a>
-        <a href="tentang.html">Tentang Kami</a>
-        <a href="kontak.html">Kontak</a>
-      </nav>
+<!-- Header -->
+<header class="bg-blue-800 text-white p-4">
+  <div class="max-w-6xl mx-auto flex justify-between items-center">
+    <h1 class="text-xl font-bold">Dealer Isuzu Jakarta</h1>
+    <nav class="space-x-4 text-sm">
+      <a href="index.html" class="hover:underline">Beranda</a>
+      <a href="produk.html" class="underline font-semibold">Produk</a>
+      <a href="price-list.html" class="hover:underline">Price List</a>
+      <a href="galeri.html" class="hover:underline">Galeri</a>
+      <a href="faq.html" class="hover:underline">FAQ</a>
+      <a href="kontak.html" class="hover:underline">Kontak</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Produk -->
+<section class="max-w-6xl mx-auto py-16 px-4">
+  <h2 class="text-2xl font-bold text-center mb-10">Pilihan Truk Isuzu</h2>
+  <div class="grid md:grid-cols-3 gap-8">
+    <div class="text-center shadow p-4 rounded border">
+      <img src="assets/images/traga.png" alt="Isuzu Traga" class="w-full h-48 object-contain mb-4">
+      <h3 class="font-bold">Isuzu Traga</h3>
+      <p class="text-sm text-gray-600">Pick up diesel 2.5L, bak luas, daya angkut 1.5 ton</p>
+      <p class="text-sm mt-2">Harga: <strong>Rp 283.000.000 (OTR Jakarta)</strong></p>
     </div>
-  </header>
-
-  <section class="container">
-    <h2>Semua Kategori Produk</h2>
-    <ul>
-      <li><a href="traga.html">Isuzu Traga</a> - Pick up ringan, irit & bertenaga</li>
-      <li><a href="nlr.html">Isuzu Elf NLR</a> - Truk ringan untuk barang atau penumpang</li>
-      <li><a href="fvm.html">Isuzu Giga FVM</a> - Truk besar untuk bisnis logistik</li>
-      <!-- Tambahkan varian lain nanti -->
-    </ul>
-  </section>
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Dealer Isuzu Jakarta | Hidayatullah - 085338180260</p>
+    <div class="text-center shadow p-4 rounded border">
+      <img src="assets/images/nlr.png" alt="Isuzu Elf NLR" class="w-full h-48 object-contain mb-4">
+      <h3 class="font-bold">Isuzu Elf NLR</h3>
+      <p class="text-sm text-gray-600">Truk ringan 4 roda, cocok untuk logistik dan travel</p>
+      <p class="text-sm mt-2">Harga: <strong>Rp 413.000.000 (OTR Jakarta)</strong></p>
     </div>
-  </footer>
+    <div class="text-center shadow p-4 rounded border">
+      <img src="assets/images/fvm.png" alt="Isuzu Giga FVM" class="w-full h-48 object-contain mb-4">
+      <h3 class="font-bold">Isuzu Giga FVM</h3>
+      <p class="text-sm text-gray-600">Truk 6 roda, cocok untuk industri berat & ekspedisi</p>
+      <p class="text-sm mt-2">Harga: <strong>Rp 932.000.000 (OTR Jakarta)</strong></p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-blue-800 text-white text-center py-6 text-sm">
+  <p>&copy; 2025 Dealer Isuzu Jakarta | Hidayatullah</p>
+  <a href="privacy.html" class="underline">Kebijakan Privasi</a>
+</footer>
+
+<!-- WhatsApp CTA -->
+<a href="https://wa.me/6285338180260?text=Halo%20Pak%20Hidayatullah%2C%20saya%20tertarik%20dengan%20produk%20Isuzu." class="whatsapp-float" target="_blank">Chat WA</a>
 
 </body>
 </html>
