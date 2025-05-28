@@ -3,69 +3,92 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Price List Isuzu | Dealer Isuzu Jakarta</title>
-  <meta name="description" content="Daftar harga resmi Isuzu Jakarta. Lihat harga Traga, Elf NLR, dan Giga FVM. Hubungi Hidayatullah untuk penawaran terbaik.">
-  <link rel="stylesheet" href="css/style.css" />
+  <title>Price List Truk Isuzu | Dealer Jakarta</title>
+  <meta name="description" content="Lihat daftar harga terbaru Truk Isuzu Traga, Elf NLR, dan Giga FVM. Harga OTR Jakarta dan tersedia PDF download.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 50;
+      background-color: #25D366;
+      color: white;
+      padding: 14px 18px;
+      border-radius: 50px;
+      font-weight: bold;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .whatsapp-float:hover {
+      background-color: #1ebd58;
+    }
+  </style>
 </head>
-<body>
+<body class="bg-white text-gray-800 font-sans">
 
-  <header>
-    <div class="container">
-      <h1>Price List Unit Isuzu</h1>
-      <nav>
-        <a href="index.html">Beranda</a>
-        <a href="produk.html">Produk</a>
-        <a href="price-list.html">Price List</a>
-        <a href="tentang.html">Tentang Kami</a>
-        <a href="kontak.html">Kontak</a>
-      </nav>
-    </div>
-  </header>
+<!-- Header -->
+<header class="bg-blue-800 text-white p-4">
+  <div class="max-w-6xl mx-auto flex justify-between items-center">
+    <h1 class="text-xl font-bold">Dealer Isuzu Jakarta</h1>
+    <nav class="space-x-4 text-sm">
+      <a href="index.html#produk" class="hover:underline">Produk</a>
+      <a href="index.html#galeri" class="hover:underline">Galeri</a>
+      <a href="index.html#keunggulan" class="hover:underline">Keunggulan</a>
+      <a href="index.html#faq" class="hover:underline">FAQ</a>
+      <a href="index.html#kontak" class="hover:underline">Kontak</a>
+      <a href="price-list.html" class="underline font-semibold">Price List</a>
+    </nav>
+  </div>
+</header>
 
-  <section class="container">
-    <h2>Daftar Harga OTR Jakarta</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Tipe Unit</th>
-          <th>Varian / Model</th>
-          <th>Harga OTR</th>
-          <th>Keterangan</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Traga</td>
-          <td>Box Aluminium</td>
-          <td>Rp 330.000.000</td>
-          <td>Promo DP ringan</td>
-        </tr>
-        <tr>
-          <td>NLR</td>
-          <td>NLR 55 B</td>
-          <td>Rp 413.000.000</td>
-          <td>Cicilan mulai 5 juta</td>
-        </tr>
-        <tr>
-          <td>Giga FVM</td>
-          <td>FVM 34 U</td>
-          <td>Rp 932.000.000</td>
-          <td>Angsuran fleksibel</td>
-        </tr>
-      </tbody>
-    </table>
+<!-- Daftar Harga -->
+<section class="max-w-5xl mx-auto py-16 px-4">
+  <h2 class="text-2xl font-bold text-center mb-8">Daftar Harga Truk Isuzu Jakarta</h2>
 
-    <p style="margin-top: 2em;">
-      <strong>Unduh Price List Lengkap (PDF):</strong><br>
-      <a href="price-list.pdf" target="_blank">Klik di sini untuk download</a>
-    </p>
-  </section>
+  <table class="w-full table-auto border-collapse mb-10">
+    <thead class="bg-blue-800 text-white">
+      <tr>
+        <th class="p-3 text-left">Tipe Truk</th>
+        <th class="p-3 text-left">Spesifikasi</th>
+        <th class="p-3 text-right">Harga OTR Jakarta</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b">
+        <td class="p-3">Isuzu Traga</td>
+        <td class="p-3 text-sm">Pick up diesel 2.5L, bak luas, muatan 1.5 ton</td>
+        <td class="p-3 text-right">Rp 283.000.000</td>
+      </tr>
+      <tr class="border-b bg-gray-50">
+        <td class="p-3">Isuzu Elf NLR</td>
+        <td class="p-3 text-sm">Truk ringan 4 roda, cocok untuk logistik & travel</td>
+        <td class="p-3 text-right">Rp 413.000.000</td>
+      </tr>
+      <tr class="border-b">
+        <td class="p-3">Isuzu Giga FVM</td>
+        <td class="p-3 text-sm">Truk 6 roda, industri berat & proyek ekspedisi</td>
+        <td class="p-3 text-right">Rp 932.000.000</td>
+      </tr>
+    </tbody>
+  </table>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Dealer Isuzu Jakarta | Hidayatullah</p>
-    </div>
-  </footer>
+  <div class="text-center">
+    <a href="price-list.pdf" target="_blank" class="bg-blue-600 text-white px-6 py-3 rounded font-semibold">Download Price List (PDF)</a>
+  </div>
+
+  <div class="text-center mt-8">
+    <a href="index.html" class="text-blue-600 hover:underline text-sm">← Kembali ke Beranda</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-blue-800 text-white text-center py-6 text-sm">
+  <p>&copy; 2025 Dealer Isuzu Jakarta | Hidayatullah</p>
+  <a href="privacy.html" class="underline">Kebijakan Privasi</a>
+</footer>
+
+<!-- WhatsApp Floating CTA -->
+<a href="https://wa.me/6285338180260?text=Halo%20Pak%20Hidayatullah%2C%20saya%20ingin%20tanya%20daftar%20harga%20truk%20Isuzu." class="whatsapp-float" target="_blank">Chat WA</a>
 
 </body>
 </html>
