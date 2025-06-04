@@ -2,24 +2,65 @@
 <urlset 
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url><loc>https://hidayatisuzu.github.io/dealer-isuzu-jakarta/</loc></url>
-  <url><loc>https://hidayatisuzu.github.io/dealer-isuzu-jakarta/produk.html</loc></url>
-  <url><loc>https://hidayatisuzu.github.io/dealer-isuzu-jakarta/price-list.html</loc></url>
-  <url><loc>https://hidayatisuzu.github.io/dealer-isuzu-jakarta/keunggulan.html</loc></url>
-  <url><loc>https://hidayatisuzu.github.io/dealer-isuzu-jakarta/galeri.html</loc></url>
-  <url><loc>https://hidayatisuzu.github.io/dealer-isuzu-jakarta/kontak.html</loc></url>
-  <url><loc>https://hidayatisuzu.github.io/dealer-isuzu-jakarta/tentang.html</loc></url>
-  <url><loc>https://hidayatisuzu.github.io/dealer-isuzu-jakarta/testimoni.html</loc></url>
-  <url><loc>https://hidayatisuzu.github.io/dealer-isuzu-jakarta/faq.html</loc></url>
-  <url><loc>https://hidayatisuzu.github.io/dealer-isuzu-jakarta/blog.html</loc></url>
-  <url><loc>https://hidayatisuzu.github.io/dealer-isuzu-jakarta/blog-1.html</loc></url>
-  <url><loc>https://hidayatisuzu.github.io/dealer-isuzu-jakarta/blog-2.html</loc></url>
-  <url><loc>https://hidayatisuzu.github.io/dealer-isuzu-jakarta/blog-3.html</loc></url>
-  <url><loc>https://hidayatisuzu.github.io/dealer-isuzu-jakarta/privacy.html</loc></url>
+  <url>
+    <loc>https://infoisuzujakarta.web.id/</loc>
+    <priority>1.00</priority>
+  </url>
 
-  <!-- Tambahan produk individual -->
-  <url><loc>https://hidayatisuzu.github.io/dealer-isuzu-jakarta/traga.html</loc></url>
-  <url><loc>https://hidayatisuzu.github.io/dealer-isuzu-jakarta/nlr.html</loc></url>
-  <url><loc>https://hidayatisuzu.github.io/dealer-isuzu-jakarta/fvm.html</loc></url>
+  <url>
+    <loc>https://infoisuzujakarta.web.id/produk.html</loc>
+  </url>
+
+  <url>
+    <loc>https://infoisuzujakarta.web.id/traga.html</loc>
+  </url>
+
+  <url>
+    <loc>https://infoisuzujakarta.web.id/nlr.html</loc>
+  </url>
+
+  <url>
+    <loc>https://infoisuzujakarta.web.id/fvm.html</loc>
+  </url>
+
+  <url>
+    <loc>https://infoisuzujakarta.web.id/galeri.html</loc>
+  </url>
+
+  <url>
+    <loc>https://infoisuzujakarta.web.id/testimoni.html</loc>
+  </url>
+
+  <url>
+    <loc>https://infoisuzujakarta.web.id/faq.html</loc>
+  </url>
+
+  <url>
+    <loc>https://infoisuzujakarta.web.id/kontak.html</loc>
+  </url>
+
+  <url>
+    <loc>https://infoisuzujakarta.web.id/tentang.html</loc>
+  </url>
+
+  <url>
+    <loc>https://infoisuzujakarta.web.id/blog.html</loc>
+  </url>
+
+  <url>
+    <loc>https://infoisuzujakarta.web.id/blog-1.html</loc>
+  </url>
+
+  <url>
+    <loc>https://infoisuzujakarta.web.id/blog-2.html</loc>
+  </url>
+
+  <url>
+    <loc>https://infoisuzujakarta.web.id/blog-3.html</loc>
+  </url>
+
+  <url>
+    <loc>https://infoisuzujakarta.web.id/price-list.html</loc>
+  </url>
 
 </urlset>
