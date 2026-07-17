@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Galeri Truk Isuzu Jakarta</title>
-  <meta name="description" content="Lihat galeri foto truk Isuzu dan dokumentasi serah terima konsumen. Truk Isuzu Jakarta.">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    .whatsapp-float {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      z-index: 50;
-      background-color: #25D366;
-      color: white;
-      padding: 14px 18px;
-      border-radius: 50px;
-      font-weight: bold;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    }
-    .whatsapp-float:hover {
-      background-color: #1ebd58;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galeri Foto Truk Isuzu Jakarta | Dokumentasi Serah Terima Unit</title>
+<meta name="description"
+content="Lihat dokumentasi foto unit Isuzu, proses serah terima kendaraan kepada pelanggan, serta berbagai produk Isuzu Traga, ELF, GIGA, D-Max dan MU-X di Jakarta.">
+<meta name="robots"
+content="index,follow">
+<link rel="canonical"
+href="https://trukisuzujakarta.com/galeri.html">
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+z-index:50;
+background:#25D366;
+color:#fff;
+padding:14px 18px;
+border-radius:50px;
+font-weight:bold;
+box-shadow:0 4px 12px rgba(0,0,0,.2);
+}
+
+.whatsapp-float:hover{
+background:#1ebd58;
+}
+
+</style>
 </head>
 <body class="bg-white text-gray-800 font-sans">
 
@@ -59,18 +69,145 @@
   </div>
 </header>
 
+<!-- =========================
+GALERI UNIT
+========================= -->
 
-<!-- Galeri -->
-<section class="py-16 px-4">
-  <h2 class="text-2xl font-bold text-center mb-10">Galeri Unit & Serah Terima</h2>
-  <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-6">
-    <img src="assets/images/traga.png" class="rounded shadow" alt="Unit Isuzu Traga">
-    <img src="assets/images/nlr.png" class="rounded shadow" alt="Unit Isuzu NLR">
-    <img src="assets/images/fvm.png" class="rounded shadow" alt="Unit Giga FVM">
-    <img src="assets/images/serah-terima-1.jpg" class="rounded shadow" alt="Serah Terima Konsumen 1">
-    <img src="assets/images/serah-terima-2.jpg" class="rounded shadow" alt="Serah Terima Konsumen 2">
-    <img src="assets/images/serah-terima-3.jpg" class="rounded shadow" alt="Serah Terima Konsumen 3">
-  </div>
+<section class="py-16 bg-gray-100">
+
+<div class="max-w-6xl mx-auto px-4">
+
+<h1 class="text-3xl font-bold text-center mb-3">
+Galeri Unit Isuzu
+</h1>
+
+<p class="text-center text-gray-600 max-w-3xl mx-auto mb-10">
+Berikut beberapa foto unit Isuzu yang tersedia. Foto akan terus diperbarui sesuai produk dan stok terbaru.
+</p>
+
+<div class="relative overflow-hidden rounded-xl shadow-xl">
+
+<div id="sliderUnit"
+class="flex transition-transform duration-700 ease-in-out">
+
+<img src="assets/images/traga.png"
+class="w-full flex-shrink-0 object-cover"
+alt="Unit Isuzu Traga">
+
+<img src="assets/images/nlr.png"
+class="w-full flex-shrink-0 object-cover"
+alt="Unit Isuzu ELF NLR">
+
+<img src="assets/images/fvm.png"
+class="w-full flex-shrink-0 object-cover"
+alt="Unit Isuzu GIGA FVM">
+
+</div>
+
+<button onclick="prevUnit()"
+class="absolute left-3 top-1/2 -translate-y-1/2 bg-white hover:bg-gray-100 rounded-full px-4 py-2 shadow">
+
+❮
+
+</button>
+
+<button onclick="nextUnit()"
+class="absolute right-3 top-1/2 -translate-y-1/2 bg-white hover:bg-gray-100 rounded-full px-4 py-2 shadow">
+
+❯
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =========================
+GALERI SERAH TERIMA
+========================= -->
+
+<section class="py-16">
+
+<div class="max-w-6xl mx-auto px-4">
+
+<h2 class="text-3xl font-bold text-center mb-3">
+Dokumentasi Serah Terima Unit
+</h2>
+
+<p class="text-center text-gray-600 max-w-3xl mx-auto mb-10">
+Seluruh foto di bawah merupakan dokumentasi asli penyerahan kendaraan kepada pelanggan. Beberapa wajah pelanggan dapat disamarkan demi menjaga privasi.
+</p>
+
+<div class="relative overflow-hidden rounded-xl shadow-xl">
+
+<div id="sliderSerah"
+class="flex transition-transform duration-700 ease-in-out">
+
+<img src="assets/images/serah-terima-1.jpg"
+class="w-full flex-shrink-0 object-cover"
+alt="Serah Terima Isuzu Traga">
+
+<img src="assets/images/serah-terima-2.jpg"
+class="w-full flex-shrink-0 object-cover"
+alt="Serah Terima Isuzu ELF">
+
+<img src="assets/images/serah-terima-3.jpg"
+class="w-full flex-shrink-0 object-cover"
+alt="Serah Terima Isuzu GIGA">
+
+</div>
+
+<button onclick="prevSerah()"
+class="absolute left-3 top-1/2 -translate-y-1/2 bg-white hover:bg-gray-100 rounded-full px-4 py-2 shadow">
+
+❮
+
+</button>
+
+<button onclick="nextSerah()"
+class="absolute right-3 top-1/2 -translate-y-1/2 bg-white hover:bg-gray-100 rounded-full px-4 py-2 shadow">
+
+❯
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- =========================
+CTA
+========================= -->
+
+<section class="bg-blue-700 text-white py-14">
+
+<div class="max-w-5xl mx-auto px-4 text-center">
+
+<h2 class="text-3xl font-bold mb-4">
+Tertarik Memiliki Truk Isuzu?
+</h2>
+
+<p class="text-lg mb-8">
+Hubungi Ayat (Hidayatullah) untuk mendapatkan penawaran harga terbaik, simulasi kredit, informasi stok terbaru, dan konsultasi pembelian tanpa biaya.
+</p>
+
+<a
+href="https://wa.me/6282322928919?text=Halo%20Pak%20Ayat,%20saya%20ingin%20konsultasi%20mengenai%20Truk%20Isuzu."
+target="_blank"
+class="inline-block bg-green-500 hover:bg-green-600 px-8 py-4 rounded-lg font-bold">
+
+Konsultasi Gratis via WhatsApp
+
+</a>
+
+</div>
+
 </section>
 
 <!-- Footer -->
@@ -149,18 +286,128 @@
 <a href="https://wa.me/6282322928919?text=Halo%20Pak%20Ayat%2C%20saya%20ingin%20melihat%20unit%20yang%20tersedia%20dan%20jadwal%20serah%20terima." class="whatsapp-float" target="_blank">Chat WA</a>
 
 <script>
+
 document.addEventListener("DOMContentLoaded", function () {
 
-  const menuBtn = document.getElementById("menu-btn");
-  const menu = document.getElementById("menu");
+    // ==========================
+    // MENU HAMBURGER
+    // ==========================
 
-  if (menuBtn && menu) {
-    menuBtn.addEventListener("click", function () {
-      menu.classList.toggle("hidden");
-    });
-  }
+    const menuBtn = document.getElementById("menu-btn");
+    const menu = document.getElementById("menu");
+
+    if(menuBtn && menu){
+
+        menuBtn.addEventListener("click",function(){
+
+            menu.classList.toggle("hidden");
+
+        });
+
+    }
+
+
+    // ==========================
+    // SLIDER UNIT
+    // ==========================
+
+    let unitIndex = 0;
+
+    const unitSlider = document.getElementById("sliderUnit");
+
+    const totalUnit =
+    unitSlider.children.length;
+
+    function showUnit(){
+
+        unitSlider.style.transform =
+        `translateX(-${unitIndex*100}%)`;
+
+    }
+
+    window.nextUnit=function(){
+
+        unitIndex++;
+
+        if(unitIndex>=totalUnit){
+
+            unitIndex=0;
+
+        }
+
+        showUnit();
+
+    }
+
+    window.prevUnit=function(){
+
+        unitIndex--;
+
+        if(unitIndex<0){
+
+            unitIndex=totalUnit-1;
+
+        }
+
+        showUnit();
+
+    }
+
+    setInterval(nextUnit,4000);
+
+
+
+    // ==========================
+    // SLIDER SERAH TERIMA
+    // ==========================
+
+    let serahIndex = 0;
+
+    const serahSlider =
+    document.getElementById("sliderSerah");
+
+    const totalSerah =
+    serahSlider.children.length;
+
+    function showSerah(){
+
+        serahSlider.style.transform =
+        `translateX(-${serahIndex*100}%)`;
+
+    }
+
+    window.nextSerah=function(){
+
+        serahIndex++;
+
+        if(serahIndex>=totalSerah){
+
+            serahIndex=0;
+
+        }
+
+        showSerah();
+
+    }
+
+    window.prevSerah=function(){
+
+        serahIndex--;
+
+        if(serahIndex<0){
+
+            serahIndex=totalSerah-1;
+
+        }
+
+        showSerah();
+
+    }
+
+    setInterval(nextSerah,5000);
 
 });
+
 </script>
 
 </body>
