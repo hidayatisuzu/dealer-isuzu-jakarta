@@ -8,21 +8,50 @@
   <link rel="canonical" href="https://trukisuzujakarta.com/kontak.html">
   <meta name="robots" content="index,follow">
   <script src="https://cdn.tailwindcss.com"></script>
-  <script type="application/ld+json">
+
+  <!-- Schema.org -->
+<script type="application/ld+json">
 {
-  {
- "@context":"https://schema.org",
- "@type":"ContactPage",
- "name":"Kontak Truk Isuzu Jakarta",
- "url":"https://trukisuzujakarta.com/kontak.html",
- "mainEntity":{
-   "@type":"Person",
-   "name":"Ayat (Hidayatullah)",
-   "jobTitle":"Sales Consultant",
-   "telephone":"+62-823-2292-8919",
-   "email":"hidayatullah@iso.astra.co.id"
- }
-}
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "ContactPage",
+      "@id": "https://trukisuzujakarta.com/kontak.html",
+      "url": "https://trukisuzujakarta.com/kontak.html",
+      "name": "Kontak Sales Truk Isuzu Jakarta"
+    },
+
+    {
+      "@type": "AutoDealer",
+      "@id": "https://trukisuzujakarta.com/#dealer",
+      "name": "TrukIsuzuJakarta.com",
+      "url": "https://trukisuzujakarta.com",
+      "telephone": "+62-823-2292-8919",
+      "email": "hidayatullah@iso.astra.co.id",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jl. Danau Sunter Utara Blok O3 Kav.30",
+        "addressLocality": "Jakarta Utara",
+        "addressRegion": "DKI Jakarta",
+        "postalCode": "14350",
+        "addressCountry": "ID"
+      }
+    },
+
+    {
+      "@type": "Person",
+      "@id": "https://trukisuzujakarta.com/#ayat",
+      "name": "Ayat (Hidayatullah)",
+      "jobTitle": "Sales Consultant Astra Isuzu Sunter",
+      "worksFor": {
+        "@id": "https://trukisuzujakarta.com/#dealer"
+      },
+      "telephone": "+62-823-2292-8919",
+      "email": "hidayatullah@iso.astra.co.id"
+    }
+
+  ]
 }
 </script>
   <style>
@@ -82,7 +111,7 @@
 <!-- Info Kontak -->
 <section class="max-w-4xl mx-auto py-16 px-4">
   <h1 class="text-2xl font-bold text-center mb-6">Hubungi Sales Truk Isuzu Jakarta</h1>
-
+<p class="text-center text-gray-600 max-w-3xl mx-auto mb-10">Silakan hubungi Ayat (Hidayatullah), Sales Consultant Astra Isuzu Sunter, untuk konsultasi pembelian Truk Isuzu, simulasi kredit, informasi stok terbaru, hingga penawaran harga terbaik tanpa biaya konsultasi.</p>
   <div class="text-center mb-6">
     <img src="assets/images/foto-dayat.jpg" alt="Foto Hidayatullah" class="w-32 h-32 rounded-full mx-auto shadow-md object-cover">
   </div>
@@ -111,7 +140,29 @@
     src="https://docs.google.com/forms/d/e/1FAIpQLScxcBtdy_ZDbr2Bog1fwGnlO2E-OtzpMAOYzq6fgNLrX0VOpA/viewform?embedded=true" 
     width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0">Memuat…</iframe>
 </section>
+  
+<section class="bg-blue-700 text-white py-12 text-center">
 
+<h2 class="text-3xl font-bold">
+
+Butuh Penawaran Hari Ini?
+
+</h2>
+
+<p class="mt-4">
+
+Hubungi Ayat sekarang untuk mendapatkan simulasi kredit, promo terbaru, serta informasi stok unit Isuzu.
+
+</p>
+
+<a ...
+
+Konsultasi Gratis via WhatsApp
+
+</a>
+
+</section>
+  
 <!-- Footer -->
 <footer class="bg-blue-900 text-white mt-16">
 
