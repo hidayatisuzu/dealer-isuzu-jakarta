@@ -1,0 +1,7 @@
+# robots.txt
+# TrukIsuzuJakarta.com
+
+User-agent: *
+Allow: /
+
+Sitemap: https://trukisuzujakarta.com/sitemap.xml
