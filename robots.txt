@@ -1,7 +1,5 @@
-# robots.txt
-# TrukIsuzuJakarta.com
-
 User-agent: *
 Allow: /
 
+# Lokasi Peta Situs Resmi
 Sitemap: https://trukisuzujakarta.com/sitemap.xml
